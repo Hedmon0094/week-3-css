@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .card{
+            width: 40%;
+            display: flex;
+            background-color: rgb(115, 248, 203);
+            margin: 10px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h1 style="display: flex; color:blue; font-size: 25px; text-align: center; word-spacing: normal; margin-left: 45%; margin-top: 4%;">Registration Form</h1>
+    <card class="card">
+    <form>
+        <div>
+        <p id="parag">Please do your registration here!</p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        please select the following:<br><br>
+        <input type="radio" name="role" value="student" id="student">
+        <label for="student">Student</label>
+        <input type="radio" name="role" value="instructor" id="Instructor">
+        <label for="teacher">Instructor</label><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+        
+        <input type="submit" value="Register">
+        </div>
+    </form>
+    </card>
+</body>
+</html>

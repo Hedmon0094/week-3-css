@@ -1,0 +1,32 @@
+
+form{
+    display:inline-flexbox;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-align: center;
+}
+#parag{
+    margin-top: 10px;
+    text-align: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #85129c;
+    font-weight: bold;
+}
+input{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #85129c;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #85129c;
+    font-weight: bold;
+}
+input:hover{
+    background-color: #85129c;
+    color: white;
+}
+
